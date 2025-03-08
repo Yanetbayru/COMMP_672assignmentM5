@@ -1,0 +1,214 @@
+/* General Styles */
+body {
+    background-color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1, h2, h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: #b3679b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+/* Header & Navigation */
+header {
+    position: sticky;
+    top: 0;
+    height: 110px;
+    background-color: white;
+    z-index: 1000;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 250px;
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+nav ul li a:hover {
+    color: #e6a563;
+}
+
+header::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #FFCF83;
+    height: 400px;
+    padding: 60px 40px;
+    overflow: hidden;
+}
+
+.hero .hero-text {
+    max-width: 500px;
+}
+
+.hero img {
+    width: 400px;
+    float: right;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #222e50;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    border: 2px solid #222e50;
+    background-color: transparent;
+    color: #222e50;
+}
+
+.hero::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #fff7e6;
+}
+
+.feature-block {
+    width: 325px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-block img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #222e50;
+    text-align: center;
+    padding: 60px 0;
+    color: white;
+}
+
+.testimonial-block {
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-block q {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Team Section */
+.team {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #fff7e6;
+}
+
+.team .container {
+    display: block;
+    text-align: center;
+}
+
+.team-member {
+    width: 210px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a img {
+    width: 35px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+}
